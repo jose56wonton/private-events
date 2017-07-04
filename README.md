@@ -1,24 +1,6 @@
-# README
+# Private-events
+Private-events is a miniture project for Rails practice. It is my first project that has a many-to-many model relationship
+between the users and the events.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is part of [TheOdinProject's](http://www.theodinproject.com) Rails track.
+The project itself can be seen [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/associations?ref=lc-pb)!
