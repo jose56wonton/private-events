@@ -1,0 +1,9 @@
+<li id="event-<%= event.id%>">
+  <h4 class="title"><%= link_to event.title, event %> </h4>
+  <h6 class="date">Date: <%= event.date %></h6>
+  <h6 class="location">Location: <%= event.location %></h6>
+
+  <span class="timestamp">
+    Created <%= time_ago_in_words(event.created_at) %> ago.
+  </span>
+</li>
