@@ -1,0 +1,13 @@
+<%= form_for(@event) do |f| %>
+
+  <%= f.label :title %>
+  <%= f.text_field :title, class: 'form-control' %>
+
+  <%= f.label :date %>
+  <%= f.date_field :date, class: 'form-control' %>
+
+  <%= f.label :location %>
+  <%= f.text_field :location, class: 'form-control' %>
+
+  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+<% end %>

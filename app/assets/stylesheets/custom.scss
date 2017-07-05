@@ -68,6 +68,11 @@ p {
       text-decoration: none;
     }
 }
+.dropdown-toggle:active, .open .dropdown-toggle {
+        background-color: white !important;
+        color:#000 !important;
+
+}
 #logo {
   float: left;
   margin-right: 10px;
